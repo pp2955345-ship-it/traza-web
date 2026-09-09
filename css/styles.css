@@ -147,7 +147,7 @@ nav a:not(.btn):hover::after{width:100%;}
 .sector-card .ic{width:60px;height:60px;border-radius:50%;background:var(--lime);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:26px;transition:var(--transition);}
 .sector-card:hover .ic{transform:scale(1.08);}
 .sector-card p{font-weight:600;font-size:15px;}
-.grid-single{grid-template-columns:1fr;max-width:320px;margin:20px auto 0;}
+.grid .sector-card.single{grid-column:1/-1;justify-self:center;width:min(316px,100%);margin-top:8px;}
 
 /* ===== Retos ===== */
 .retos{padding:100px 24px;}
@@ -262,6 +262,7 @@ footer{background:var(--surface-base);padding:48px 24px;color:var(--text-seconda
 }
 @media(max-width:560px){
   .grid,.retos-grid{grid-template-columns:1fr;}
+  .grid .sector-card.single{width:100%;}
   .topbar ul{justify-content:center;}
   .section{padding:70px 0;}
 }
