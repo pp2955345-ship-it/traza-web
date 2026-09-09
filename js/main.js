@@ -33,9 +33,13 @@ document.addEventListener('DOMContentLoaded', function () {
   const dotsWrap = document.querySelector('.hero-dots');
   const bannerText = document.querySelector('.hero-banner p');
   const messages = [
-    '¿Quieres gestionar de una manera ágil y sencilla los pedidos de forma rápida y reduciendo los errores de recepción?',
-    'Solución integral para su empresa con el ecosistema de Microsoft',
-    '20 años de experiencia en la industria alimentaria'
+    'Desea usted acabar con sus problemas de trazabilidad y seguimiento de Lotes',
+    'Posee sistemas de información integrados on-line con sus clientes y proveedores mediante protocolos EDI',
+    'Quiere poder atender a su canal de ventas y sus clientes de forma rápida y reduciendo costes de estructura',
+    'Necesita saber la rentabilidad de sus productos y sus clientes',
+    'Realiza Prognosis Diaria, dotando de información en tiempo real de la situación de la compañía',
+    'Tiene capacidad de utilizar herramientas desde los puestos de trabajo para la introducción de datos en tiempo real',
+    'Gestiona de forma Intensiva la actividad de su equipo Comercial, control de sus ventas y rentabilidad de cada operación'
   ];
   let current = 0;
   let timer;
