@@ -235,7 +235,7 @@ footer{background:var(--surface-base);padding:48px 24px;color:var(--text-seconda
 .footer-links{display:flex;flex-wrap:wrap;gap:18px;font-size:13px;}
 .footer-links a{transition:color .2s;}
 .footer-links a:hover{color:var(--teal);}
-.footer-logo{font-size:40px;font-weight:700;color:var(--lime-dark);letter-spacing:-.02em;}
+.footer-logo-img{height:44px;width:auto;}
 
 /* ===== Barra final ===== */
 .bottombar{background:var(--teal-2);color:#fff;padding:18px 24px;}
