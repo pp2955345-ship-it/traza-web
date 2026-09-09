@@ -80,6 +80,18 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .stagger')
     .forEach(el => io.observe(el));
 
+  /* ---------- Flipbox de industrias (toque en móvil) ---------- */
+  const isTouch = window.matchMedia('(hover: none)').matches;
+  if (isTouch) {
+    document.querySelectorAll('.flip').forEach(flip => {
+      flip.addEventListener('click', () => {
+        const open = flip.classList.contains('flipped');
+        document.querySelectorAll('.flip').forEach(f => f.classList.remove('flipped'));
+        if (!open) flip.classList.add('flipped');
+      });
+    });
+  }
+
   /* ---------- Botón volver arriba ---------- */
   const toTop = document.getElementById('toTop');
   window.addEventListener('scroll', () => {

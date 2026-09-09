@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Traza</title>
+  <meta name="description" content="Contacta con nosotros. Habla con el equipo de Traza sobre tu negocio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Barra superior -->
+  <div class="topbar">
+    <div class="container">
+      <ul class="contact-info">
+        <li><a href="tel:+34942948040">📞 +34 942 948 040</a></li>
+        <li><a href="mailto:marketing@acicatech.es">✉️ marketing@acicatech.es</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="https://www.youtube.com/channel/UCGG2cpkpI6HLJVv5oEU8ZUg" aria-label="YouTube">YouTube</a></li>
+        <li><a href="https://es.linkedin.com/company/acicatech" aria-label="LinkedIn">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-inner">
+      <a class="logo" href="index.html">
+        <img class="logo-img" src="assets/images/logo.png" alt="atraza">
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <nav id="nav" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html#sectores">INDUSTRIAS</a></li>
+          <li><a href="index.html#retos">RETOS</a></li>
+          <li><a href="index.html#soluciones">SOLUCIONES</a></li>
+          <li><a href="index.html#funcionalidades">FUNCIONALIDADES</a></li>
+          <li><a href="index.html#noticias">NOTICIAS</a></li>
+          <li><a href="https://appsource.microsoft.com/es-ES/product/dynamics-365-business-central/PUBID.acicatechsolucionestecnologicassl1579603346506%7CAID.traza_bc%7CPAPPID.b5fcf3c6-284f-4791-8f2c-73305cf9000b?tab=Overview" target="_blank" rel="noopener">APP SOURCE</a></li>
+          <li><a class="btn" href="contacto.html">Contactar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contacto -->
+  <section class="contact" id="contacto">
+    <h2 class="section-title">Contacto</h2>
+    <p class="contact-intro">Contacta con nosotros y háblanos de tu negocio y lo que estás buscando, nuestras puertas siempre están abiertas.</p>
+
+    <div class="contact-layout">
+      <!-- Columna izquierda: datos + mapa -->
+      <div class="contact-left">
+        <div class="contact-info-box">
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h3>Teléfono</h3>
+              <a href="tel:+34942948040">+34 942 948 040</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <h3>Correo electrónico</h3>
+              <a href="mailto:marketing@acicatech.es">marketing@acicatech.es</a>
+            </div>
+          </div>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps?q=Santander&output=embed" title="Mapa de ubicación" loading="lazy" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Columna derecha: formulario -->
+      <form class="contact-form">
+        <h3>Envíanos un mensaje</h3>
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" placeholder="Nombre" required>
+        </div>
+        <div>
+          <label for="apellidos">Apellidos</label>
+          <input type="text" id="apellidos" placeholder="Apellidos">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div>
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" placeholder="Teléfono">
+        </div>
+        <div class="full">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" placeholder="Mensaje"></textarea>
+        </div>
+        <div class="full check">
+          <input type="checkbox" id="priv">
+          <label for="priv">He leído y acepto la <a href="#">política de privacidad</a></label>
+        </div>
+        <div class="submit"><button class="btn" type="submit">Enviar</button></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <ul class="footer-links">
+        <li><a href="#">Aviso legal</a></li>
+        <li><a href="#">Política de privacidad</a></li>
+        <li><a href="#">Política de cookies</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <div class="footer-logo">traza</div>
+    </div>
+  </footer>
+
+  <!-- Barra final -->
+  <div class="bottombar">
+    <div class="container">
+      <div class="acicatech">acicatech</div>
+      <div class="badges">
+        <div class="badge">ISO</div>
+        <div class="badge">✓</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
