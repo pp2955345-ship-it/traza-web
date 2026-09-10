@@ -172,7 +172,7 @@ nav a:not(.btn):hover::after{width:100%;}
 .func-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1120px;margin:0 auto;}
 .func-card{background:var(--surface-card);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--border);transition:var(--transition);display:flex;flex-direction:column;}
 .func-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);}
-.func-card .photo{height:150px;background:linear-gradient(135deg,var(--teal),var(--teal-2));display:flex;align-items:center;justify-content:center;color:#fff;font-size:42px;}
+.func-card .photo-img{width:100%;height:170px;object-fit:cover;display:block;}
 .func-card h3{color:var(--text-primary);padding:22px 24px 8px;font-size:19px;letter-spacing:-.01em;}
 .func-card ul{padding:0 24px 24px;flex:1;}
 .func-card li{padding:8px 0 8px 22px;position:relative;font-size:14px;color:var(--text-secondary);border-bottom:1px solid var(--border);}
